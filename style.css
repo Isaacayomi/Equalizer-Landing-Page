@@ -7,4 +7,69 @@
 
 body {
   font-family: "IBM Plex Sans", sans-serif;
+  position: relative;
+}
+
+.bg__overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+  overflow-x: hidden;
+  width: 17.58781rem;
+  height: 17.58781rem;
+  border-radius: 17.58781rem;
+  opacity: 0.2825;
+  background: #40fff6;
+  filter: blur(67.95704650878906px);
+}
+
+.section__1 {
+  position: relative;
+}
+
+.bg__overlay__2 {
+  position: absolute;
+  right: 0%;
+  top: 40%;
+  overflow-x: hidden;
+  width: 17.58781rem;
+  height: 17.58781rem;
+  border-radius: 17.58781rem;
+  opacity: 0.1532;
+  background: #ff9201;
+  filter: blur(67.95704650878906px);
+}
+
+header h1 {
+  width: 9.13081rem;
+  margin-right: 0;
+  padding-top: 2.5rem;
+  padding-bottom: 4rem;
+  padding-left: 1.5rem;
+}
+
+.section__1 h2 {
+  width: 20.4375rem;
+  font-family: "IBM Plex Sans";
+  color: #191826;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3rem;
+  letter-spacing: -0.02844rem;
+  padding-bottom: 1.25rem;
+  padding-inline: 1.5rem;
+}
+
+.section__1 p {
+  color: #191826;
+  font-family: "IBM Plex Sans";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 10.38rem;
 }
