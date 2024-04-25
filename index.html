@@ -30,20 +30,24 @@
         </p>
       </section>
 
-      <section>
-        <div>
-          <img src="./imgs/mobile.png" alt="mobile_phone" />
+      <section class="section__2">
+        <div class="mobile__phone__container">
+          <img src="./imgs/mobile.png" alt="mobile_phone" class="mobile__phone" />
         </div>
-        <div>
-          <h3>Premium EQ</h3>
-          <p>
-            Get expert-level control with a robust equalizer, volume mixer, and
-            spatial audio. Take your listening experience to a whole new level
-            and access all our incredible features!
-          </p>
-          <p><span>$4</span> /month</p>
 
-          <div>
+        <div class="overlay__card">
+          <h3>Premium EQ</h3>
+          <p class="subtext">
+            Get expert-level control with a robust equalizer, volume mixer, and
+            spatial audio. Take your listening experience to a whole new level and
+            access all our incredible features!
+          </p>
+          <div class="price">
+            <p>$4</p>
+            <p>/month</p>
+          </div>
+  
+          <div class="btns">
             <button>
               <img src="./imgs/apple_icon.svg" alt="apple_icon" />
               <p>iOS Download</p>
@@ -55,18 +59,19 @@
           </div>
         </div>
       </section>
+      
     </main>
 
     <footer>
       <h2>equalizer</h2>
       <p>
         All rights reserved © Equalizer 2021 Have any problems? Contact us via
-        social media or email us at equalizer@example.com
+        social media or email us at <br><span class="mail">equalizer@example.com</span>
       </p>
 
       <div class="social__icons">
         <div class="fb_icon">
-          <svg class="footer-icon">
+          <svg class="footer-icon fb">
             <use xlink:href="imgs/facebook_icon.svg#facebook"></use>
           </svg>
         </div>
