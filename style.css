@@ -414,3 +414,43 @@ ion-icon:hover {
     content: " ";
   }
 }
+
+@media screen and (min-width: 1300px) {
+  .section__1 h2 {
+    max-width: 63.4375rem;
+    width: 100%;
+    font-size: 5.5rem;
+    line-height: 5.5rem;
+    letter-spacing: -0.0625rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .section__1 p {
+    max-width: 51.5625rem;
+    width: 100%;
+    line-height: 2.125rem;
+    font-size: 1.25rem;
+  }
+
+  .mobile__phone {
+    max-width: 19.5rem;
+    width: 100%;
+    margin-left: 10rem;
+  }
+
+  .overlay__card {
+    max-width: 27.875rem;
+    width: 100%;
+    top: 10;
+    margin-left: 20rem;
+    /* left: 0; */
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  body {
+    max-width: 1350px;
+    width: 100%;
+    margin-inline: auto;
+  }
+}
