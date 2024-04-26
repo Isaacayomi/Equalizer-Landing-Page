@@ -7,6 +7,7 @@
 
 body {
   font-family: "IBM Plex Sans", sans-serif;
+  overflow-x: hidden;
   position: relative;
 }
 
@@ -32,6 +33,7 @@ body {
   position: absolute;
   right: 0%;
   top: 40%;
+  z-index: 0;
   overflow-x: hidden;
   width: 17.58781rem;
   height: 17.58781rem;
@@ -47,6 +49,7 @@ header h1 {
   padding-top: 2.5rem;
   padding-bottom: 4rem;
   padding-left: 1.5rem;
+  color: #191826;
 }
 
 .section__1 h2 {
@@ -78,9 +81,10 @@ header h1 {
   position: relative;
   background-color: #191826;
   background-image: url("./imgs/section2_bg.png");
-  background-repeat: none;
-  background-size: cover;
-  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  height: 37.5rem;
 }
 
 .mobile__phone {
@@ -95,7 +99,7 @@ header h1 {
 .overlay__card {
   background: #fa7453;
   position: absolute;
-  top: 65%;
+  top: 80%;
 }
 
 .overlay__card h3 {
@@ -111,7 +115,6 @@ header h1 {
 }
 
 .overlay__card p.subtext {
-  /* width: 18.875rem; */
   padding-left: 2.25rem;
   padding-right: 2.31rem;
   padding-bottom: 2.25rem;
@@ -213,7 +216,8 @@ header h1 {
 }
 
 footer {
-  margin-top: 20rem;
+  position: absolute;
+  bottom: -46rem;
 }
 
 footer h2 {
@@ -223,8 +227,8 @@ footer h2 {
 }
 
 footer p {
+  padding-left: 1.57rem;
   width: 20.4375rem;
-  margin-inline: auto;
   margin-bottom: 4rem;
   color: #191826;
   font-family: "IBM Plex Sans";
@@ -254,4 +258,71 @@ ion-icon {
 
 ion-icon:hover {
   color: #fa7453;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    position: relative;
+    background-image: url(./imgs/Group\ Copy.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position-x: right;
+  }
+
+  header h1 {
+    padding-left: 2.44rem;
+  }
+
+  .header__overlay {
+    position: absolute;
+    left: -10%;
+    top: -4%;
+    overflow-x: hidden;
+    width: 17.58781rem;
+    height: 17.58781rem;
+    border-radius: 17.58781rem;
+    opacity: 0.1532;
+    background: #ff9201;
+    filter: blur(67.95704650878906px);
+  }
+
+  .section__1 h2 {
+    max-width: 32.5rem;
+    width: 100%;
+    padding-left: 2.44rem;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4rem;
+    letter-spacing: 0.04544rem;
+    padding-bottom: 1.75rem;
+  }
+
+  .section__1 p {
+    max-width: 32.125rem;
+    width: 100%;
+    padding-left: 2.44rem;
+    padding-bottom: 15.56rem;
+  }
+
+  .section__2 {
+    background-image: url("./imgs/Group\ 8.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 37.5rem;
+  }
+
+  .mobile__phone {
+    max-width: 16.88788rem;
+    width: 100%;
+    margin-left: 4rem;
+    margin-top: -2rem;
+  }
+
+  .overlay__card {
+    max-width: 24.9375rem;
+    width: 100%;
+    border-radius: 0.75rem;
+    top: 30%;
+    left: 35%;
+  }
 }
