@@ -190,6 +190,11 @@ header h1 {
   font-weight: 700;
   line-height: 2rem;
   text-align: center;
+  transition: 0.2s linear;
+}
+
+.btns button:nth-child(1):hover {
+  background: #66e2dc;
 }
 
 .btns button:nth-child(2) {
@@ -200,6 +205,11 @@ header h1 {
   line-height: 2rem;
   text-align: center;
   margin-bottom: 3rem;
+  transition: 0.2s linear;
+}
+
+.btns button:nth-child(2):hover {
+  background: #ffb964;
 }
 
 footer {
@@ -236,14 +246,12 @@ footer p {
   width: 23.4375rem;
 }
 
-.footer-icon {
-  height: 1.25rem;
-  margin-top: -4rem;
-  margin-bottom: 1rem;
-  max-width: 1.5rem;
-  width: 100%;
+ion-icon {
+  font-size: 1.3rem;
+  padding-bottom: 2rem;
+  transition: 0.2s linear;
 }
 
-.footer-icon {
-  color: red;
+ion-icon:hover {
+  color: #fa7453;
 }
