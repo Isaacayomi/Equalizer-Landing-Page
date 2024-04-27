@@ -441,11 +441,11 @@ ion-icon:hover {
   }
 
   .section__1 p {
-    max-width: 51.5625rem;
-    width: 100%;
+    width: 51.5625rem;
     line-height: 2.125rem;
+    padding-left: 0;
     font-size: 1.25rem;
-    padding-left: 10.28rem;
+    margin-left: 10.28rem;
   }
 
   .section__2 {
@@ -473,7 +473,6 @@ ion-icon:hover {
   footer p {
     font-size: 1rem;
   }
-
 }
 
 @media screen and (min-width: 1441px) {
