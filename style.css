@@ -245,7 +245,7 @@ footer p {
 .social__icons {
   display: flex;
   align-items: center;
-  padding-right: 1.57rem;
+  padding-left: 1.57rem;
   gap: 1.3rem;
 }
 
@@ -337,6 +337,10 @@ ion-icon:hover {
     gap: 14.37rem;
     bottom: -25rem;
   }
+
+  .social__icons {
+    padding-right: 1.57rem;
+  }
 }
 
 @media screen and (min-width: 900px) {
@@ -416,6 +420,16 @@ ion-icon:hover {
 }
 
 @media screen and (min-width: 1300px) {
+  .container {
+    background-image: url("./imgs/Group\ Copy-desktop.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+
+  header h1 {
+    padding-left: 10rem;
+  }
+
   .section__1 h2 {
     max-width: 63.4375rem;
     width: 100%;
@@ -423,6 +437,7 @@ ion-icon:hover {
     line-height: 5.5rem;
     letter-spacing: -0.0625rem;
     padding-bottom: 2.5rem;
+    padding-left: 10rem;
   }
 
   .section__1 p {
@@ -430,20 +445,33 @@ ion-icon:hover {
     width: 100%;
     line-height: 2.125rem;
     font-size: 1.25rem;
+    padding-left: 10.28rem;
+  }
+
+  .section__2 {
+    margin-inline: 10.31rem;
   }
 
   .mobile__phone {
     max-width: 19.5rem;
     width: 100%;
-    margin-left: 10rem;
+    margin-left: 5rem;
   }
 
   .overlay__card {
     max-width: 27.875rem;
     width: 100%;
     top: 10;
-    margin-left: 20rem;
+    margin-left: 8rem;
     /* left: 0; */
+  }
+
+  footer {
+    justify-content: center;
+  }
+
+  footer p {
+    font-size: 1rem;
   }
 }
 
