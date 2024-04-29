@@ -5,6 +5,10 @@
   text-decoration: none;
 }
 
+a {
+  color: black;
+}
+
 body {
   font-family: "IBM Plex Sans", sans-serif;
   overflow-x: hidden;
@@ -177,6 +181,10 @@ header h1 {
   border: none;
 }
 
+.btns button:hover {
+  cursor: pointer;
+}
+
 .btns button p {
   max-width: 7.3125rem;
   width: 100%;
@@ -257,6 +265,7 @@ ion-icon {
 
 ion-icon:hover {
   color: #fa7453;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
